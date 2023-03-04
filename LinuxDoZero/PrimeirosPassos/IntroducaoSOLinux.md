@@ -1,0 +1,72 @@
+# Sistema Operacional
+&emsp;
+## Introdução ao Sistema Operacional Linux
+&emsp;
+### O que é um Sistema Operacional
+<br>
+
+O que é um Sistema Operacional?
+- O sistema operacional é um software, ou conjunto de softwares, que tem a função de administrar e gerenciar os recursos de um sistema. Esses recursos são:
+    - Componentes de hardware
+    - Sistema de arquivos
+    - Programas de terceiros
+    - Entre outros...
+
+
+A principal função do SO: **estabelecer uma interface entre o hardware e o usuário.**
+
+KERNEL ou núcleo do sistema operacional.
+- O KERNEL é a ponte entre **usuário** e o **hardware**. O kernel compõe a parte central do SO e responde por tarefas cruciais, como:
+    - Estabelecer a camada de abstração de baixo nível (linguagem de máquina) com o hardware;
+    - Gerenciar recursos como processador (CPU), RAM, sistema de arquivos e dispositivos de entrada e saída.
+    - Gerencias processos (execução) de programas;
+    - Gerenciar o uso de dispositivos, memória do sistema, e chamadas entre programas, definindo quais tem prioridade.
+
+<br>
+
+### O que é o Linux?
+
+<br>
+
+&emsp;&emsp;O Linux é um dos sistemas operacionais mais populares e é amplamente utilizado no segmento de **servidores** e por **desenvolvedores de software**.
+
+<br>
+
+#### Linus Torvalds
+<br>
+
+&emsp;&emsp;O kernel do linux começou a ser desenvolvido por **Linus Torvalds** em 1991 inspirado no Unix, um outro sistema operacional criado nos anos 70. O desenvolvimento inicial do kernel do Linux começou com Linus ainda quando estava na faculdade em Helsinki, na Finlândia.
+
+<br>
+
+#### Linux Foundation
+<br>
+
+&emsp;&emsp;O Kernel do Linux é mantido **Linux Foundation** que é uma organização sem fins lucrativos. Para manter o Kernel atualizado e implementar melhorias, a fundação é mantida por doações de grandes empresas que utilizam Linux em seus produtos ou serviços.
+
+<br>
+
+#### Distribuição Linux
+<br>
+
+&emsp;&emsp;Uma **distribuição Linux** é um pacote que consiste em um kernel Linux, mais uma seleção de aplicativos mantidos por um empresa ou comunidade de usuários. O objetivo de uma distribuição é **otimizar o kernel e os aplicativos** que rodam no sistema operacional para um determinado tipo de uso ou grupo de usuários.
+
+<br>
+
+#### Sistemas Embarcados
+<br>
+
+&emsp;&emsp;Os **sistemas embarcados** são uma combinação de hardware e software projetados para cumprir uma função específica dentro de um sistema maior. Normalmente fazem parte de outros dispositivos e ajudam a controlá-los. Podem ser encontrados em aplicações automotivas, médicas e até militares. Por exemplo: o Android é um SO móvel desenvolvido principalmente pela Google. A empresa inicialmente criou um SO destinado a rodar em câmeras digitais.
+
+<br>
+
+### Modelo Cliente-Servidor
+<br>
+
+&emsp;&emsp;O modelo cliente-servidor é uma estrutura d aplicação que distribui as tarefas e as cargas de trabalho entre os fornecedores de um recurso ou serviço, designados como servidores, e os requerentes dos serviços, dsignados como clientes.
+
+<center>
+<img src="data:image/jpeg;base64,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" alt="Imagem do Modelo SCRUM" width="60%" height="60%">
+<figcaption>Modelo CLiente-Servidor</figcaption>
+</center><br>
+
